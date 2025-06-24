@@ -1,0 +1,8 @@
+n = int(input("Enter a number: "))
+evens = list([x for x in range(n) if x % 2 == 0])
+odds = list([x for x in range(n) if x % 2 != 0])
+print("Even:", evens)
+print("Odd:", odds)
+fruits = list(["apple", "banana", "mango"])
+new_fruits = list([f.capitalize() for f in fruits])
+print("Fruits:", new_fruits)
