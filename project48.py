@@ -1,0 +1,6 @@
+n = int(input("Enter list length: "))
+nums = list(int(input("Enter number: ")) for i in range(n))
+evens = list(x for x in nums if x % 2 == 0)
+odds = list(x for x in nums if x % 2 != 0)
+print("Even:", evens)
+print("Odd:", odds)
