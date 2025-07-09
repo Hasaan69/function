@@ -11,7 +11,7 @@ def printboard(board):
     print('-+-+-')
     print(board['1']+'|'+board['2']+'|'+board['3'])
     print('-+-+-')
-    def game():
+def game():
         turn='X'
         count=0
         for i in range(10):
@@ -77,4 +77,4 @@ def printboard(board):
             for key in board_key:
                 theboard[key]=""
             game()
-    game()
+game()
